@@ -27,7 +27,7 @@
         <span class="icon-bar"></span>
       </button>
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="<?php site_url();?>">
         <img src="<?php images('perayalogo.png');?>" height="30"></img>
       </a>
     </div>
@@ -70,6 +70,40 @@
                     </div>
                     <div class="feature-description">
                         <h4>Mentor Berpengalaman</h4>
+                        <p>Mentor kami sangat berpengalaman dalam mendidik siswanya untuk menjadi  profesional</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <img src="<?php images('konsultasi.png');?>"></img>
+                    </div>
+                    <div class="feature-description">
+                        <h4>Gratis Konsultasi Kerja</h4>
+                        <p>Selama anda menjadi siswa kami, anda gratis berkonsultasi dengan pakar-pakar kami.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <img src="<?php images('summary.png');?>"></img>
+                    </div>
+                    <div class="feature-description">
+                        <h4>Info Bimbingan Dan Perekrutan</h4>
+                        <p>Selama anda menjadi siswa kami, kami akan memberikan info mengenai bimbingan dan recruitment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <img src="<?php images('departure.png');?>"></img>
+                    </div>
+                    <div class="feature-description">
+                        <h4>Penempatan Dan Magang</h4>
+                        <p>Selama anda menjadi siswa kami, anda akan kami tempatkan untuk magang atapun bekerja.</p>
                     </div>
                 </div>
             </div>
@@ -77,6 +111,130 @@
     </div>
 </div>
 <!-- End Feature -->
+<!-- About -->
+<div class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="<?php images('foto.jpg');?>" class="img-responsive"></img>
+                
+            </div>
+            <div class="col-md-7">
+                <h4>TENTANG LEMBAGA PELATIHAN PENERBANGAN PERAYA</h4>
+                <p>Lembaga Pelatihan Penerbangan PERAYA merupakan lembaga pendidikan dan pelatihan profesi serta penerapan ilmu pengetahuan dan teknologi penerbangan dalam bidang Airline / Ground Staff.</p>
+                <p><strong>PERAYA</strong> mempersiapkan para mahasiswa/i untuk  menjadi tenaga ahli baik secara administratif dan operasional sesuai dengan bidang Ground handling  yang merupakan staf maskapai penerbangan yang bertugas di darat.</p>
+                <a href="" class="btn btn-primary btn-lg">Daftar Sekarang</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End About -->
+<!-- News -->
+<div class="news">
+    <div class="container">
+        <div class="news-title">
+            <h2>Berita Terbaru</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat volutpat. </p>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="box-news">
+                    <h4><a href="">Judul Artikel</a></h4>
+                    <div class="box-meta">
+                        <small><span class="text-muted">16 Februari 2016</span> / <span class="text-muted">Wiryo Saputra</span></small>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-news">
+                    <h4><a href="">Judul Artikel</a></h4>
+                    <div class="box-meta">
+                        <small><span class="text-muted">16 Februari 2016</span> / <span class="text-muted">Wiryo Saputra</span></small>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-news">
+                    <h4><a href="">Judul Artikel</a></h4>
+                    <div class="box-meta">
+                        <small><span class="text-muted">16 Februari 2016</span> / <span class="text-muted">Wiryo Saputra</span></small>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-news">
+                    <h4><a href="">Judul Artikel</a></h4>
+                    <div class="box-meta">
+                        <small><span class="text-muted">16 Februari 2016</span> / <span class="text-muted">Wiryo Saputra</span></small>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-news">
+                    <h4><a href="">Judul Artikel</a></h4>
+                    <div class="box-meta">
+                        <small><span class="text-muted">16 Februari 2016</span> / <span class="text-muted">Wiryo Saputra</span></small>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-news">
+                    <h4><a href="">Judul Artikel</a></h4>
+                    <div class="box-meta">
+                        <small><span class="text-muted">16 Februari 2016</span> / <span class="text-muted">Wiryo Saputra</span></small>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-news">
+                    <h4><a href="">Judul Artikel</a></h4>
+                    <div class="box-meta">
+                        <small><span class="text-muted">16 Februari 2016</span> / <span class="text-muted">Wiryo Saputra</span></small>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-news">
+                    <h4><a href="">Judul Artikel</a></h4>
+                    <div class="box-meta">
+                        <small><span class="text-muted">16 Februari 2016</span> / <span class="text-muted">Wiryo Saputra</span></small>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            <a href="" class="btn btn-primary btn-lg">Lihat Artikel Lainnya</a>
+        </div>
+    </div>
+</div>
+<!-- End News -->
 
     <?php wp_footer();?>
   </body>

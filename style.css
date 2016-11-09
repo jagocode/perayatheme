@@ -53,6 +53,10 @@ Navigation
     font-size: 18px;
     line-height: 20px;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff !important;
+    background-color: #286090 !important;
+}
 /*-------------
 Banner
 --------------*/
@@ -115,4 +119,47 @@ News
 }
 .box-meta{
     margin-bottom: 5px;
+}
+/*-------------
+Footer
+--------------*/
+
+.footer{
+    padding:2% 0;
+    background:#333;
+    color: #fff;
+}
+.footer a{
+    color: yellow;
+}
+.footer ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.footer ul li{
+    line-height: 1.8em;
+}
+/*-------------
+Slider
+--------------*/
+.swiper-slide{
+    height: 400px;overflow:hidden;
+    text-align: center;
+    padding: 100px 0 20px;
+}
+.swiper-slide h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+/*-------------
+Main Content
+--------------*/
+.main-content{
+    padding:3% 0;
+}
+.heateor_sss_sharing_container{
+    margin-bottom: 30px;
 }
